@@ -1,0 +1,91 @@
+body {
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  color: white;
+  border: none;
+  background: #5718ca;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+.answer {
+  border-top: 2px solid grey;
+  width: 40%;
+}
+
+.answerDisplay {
+  list-style-type: none;
+}
+
+.quiz {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px 40px;
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ansBtn {
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  line-height: 12px;
+  margin: 2px 8px 2px 12px;
+  padding: 7px 16px;
+  text-align: left;
+  width: 175px;
+}
+
+.hidden {
+  display: none;
+}
+.hidden2 {
+  display: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

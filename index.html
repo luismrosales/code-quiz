@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Code Quiz</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <a href="./highscore.html">View high scores</a>
+        <h4>Time: <span id="timer">0</span></h4>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Coding Quiz Challenge</h1>
+      <p>
+        Try to answer the following code-related questions with the time limit.
+        <br />
+        Keep in mind that incorrect answers will penalize your score/time
+        <br />
+        by ten seconds!
+      </p>
+
+      <button id="start-quiz">Start Quiz</button>
+    </div>
+    <section class="quiz hidden">
+      <div>
+        <ul class="answerDisplay">
+          <h2 class="question" id="showQ"></h2>
+          <div id="userAnswer">
+            <li>
+              <button
+                id="answer1"
+                value="0"
+                type="button"
+                class="ansBtn"
+              ></button>
+            </li>
+            <li>
+              <button
+                id="answer2"
+                value="1"
+                type="button"
+                class="ansBtn"
+              ></button>
+            </li>
+            <li>
+              <button
+                id="answer3"
+                value="2"
+                type="button"
+                class="ansBtn"
+              ></button>
+            </li>
+            <li>
+              <button
+                id="answer4"
+                value="3"
+                type="button"
+                class="ansBtn"
+              ></button>
+            </li>
+            <div class="hidden2">
+              <h2 class="allDone"></h2>
+              <p class="finalScore"></p>
+              <input
+                class="initials"
+                type="text"
+                placeholder="Enter initials"
+              />
+              <button class="submitResult" type="button"></button>
+            </div>
+            <h4 class="displayAnswer"></h4>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
