@@ -8,19 +8,24 @@ var initials = $(".initials");
 
 var questions = [
   {
+    title: "JAVASCRIPT is used for making web pages ________",
+    choices: ["Pretty", "Faster", "Stylish", "Interactive"],
+    answer: 4,
+  },
+  {
     title: "what is HTML used for in web development?",
     choices: [
-      "describing the presentation of web pages",
+      "describing the functionality of web pages",
       "describing the structure of web pages",
       "used to make web pages interactive",
       "used for styling ",
     ],
-    answer: 1,
+    answer: 2,
   },
   {
     title: "Which of the following is true about CSS?",
     choices: [
-      "styling the webpage",
+      "CSS is used for styling the webpage",
       "CSS collects data",
       "user interactivity ",
       "CSS stands for customer service and support",
@@ -28,23 +33,28 @@ var questions = [
     answer: 1,
   },
   {
-    title: "What is javascript",
-    choices: ["1", "2", "3", "4"],
-    answer: 1,
+    title: "What is jquery?",
+    choices: [
+      "A request of information ",
+      "A request of data",
+      "A JAVASCRIPT simplifier",
+      "An access object",
+    ],
+    answer: 3,
   },
   {
-    title: "What is jquery",
-    choices: ["1", "2", "3", "4"],
-    answer: 1,
+    title: "Who made Bootstrap?",
+    choices: ["Facebook", "Google", "Twitter", "Netflix"],
+    answer: 3,
   },
   {
-    title: "What is bootstrap",
-    choices: ["1", "2", "3", "4"],
-    answer: 1,
-  },
-  {
-    title: "what is node",
-    choices: ["1", "2", "3", "4"],
+    title: "Which was the first programming language?",
+    choices: [
+      "Alogrithm for the analytical engine",
+      "Fortran",
+      "JAVASCRIPT",
+      "C",
+    ],
     answer: 1,
   },
 ];
